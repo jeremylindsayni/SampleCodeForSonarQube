@@ -70,3 +70,5 @@ http://YOUR_UNIQUE_SERVER_NAME.uksouth.azurecontainer.io:9000
 The pipeline will run again, but this time will send your code for static analysis on the SonarQube container we set up.
 
 34. When the build completes, click on the Summary tab and scroll to the bottom. There will be a section called "SonarQube Analysis Report". Click on the "Detailed SonarQube report" link below the heading. This will open your analysis report in a new window, where you'll see all the bugs, possible vulnerabilities and code smells that SonarQube has detected.
+
+**Finally - remember to delete the resource group you created to avoid charges on your Azure account!**
