@@ -1,6 +1,8 @@
 # SampleCodeForSonarQube
 
-The outline steps for integrating the SonarQube static analysis tool into your Azure Pipeline are below:
+The outline steps for integrating the SonarQube static analysis tool into your Azure Pipeline are below.
+
+NOTE: The SonarQube server used in this is for demonstration purposes only - it is not production ready. Alternatives are installing SonarQube on your own VM, or using the cloud service https://sonarcloud.io/.
 
 ## Create a DevOps project and add some code
 
